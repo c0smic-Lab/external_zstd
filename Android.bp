@@ -93,6 +93,7 @@ cc_library {
         "com.android.art",
         "com.android.art.debug",
         "com.android.runtime",
+        "com.android.tethering",
     ],
     visibility: [
         "//art:__subpackages__",
@@ -104,6 +105,7 @@ cc_library {
         "//external/dwarves:__subpackages__",
         "//external/elfutils:__subpackages__",
         "//external/libbpf:__subpackages__",
+        "//external/mesa3d:__subpackages__",
         "//external/rsync:__subpackages__",
         "//external/squashfs-tools/squashfs-tools:__subpackages__",
         "//external/stg:__subpackages__",
